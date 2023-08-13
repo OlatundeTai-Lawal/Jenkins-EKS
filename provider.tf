@@ -7,8 +7,7 @@ terraform {
   }
 }
 
+# Configure the AWS Provider
 provider "aws" {
-  shared_config_files      = ["FICKY_AWS_ACCESS_KEY_ID"]
-  shared_credentials_files = ["FICKY_AWS_SECRET_ACCESS_KEY"]
-  profile                  = "Olatunde"
+  region = "us-east-1"
 }
