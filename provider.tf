@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  shared_config_files      = ["C:/Users/Olatunde/.aws/config"]
-  shared_credentials_files = ["C:/Users/Olatunde/.aws/credentials"]
+  shared_config_files      = ["FICKY_AWS_ACCESS_KEY_ID"]
+  shared_credentials_files = ["FICKY_AWS_SECRET_ACCESS_KEY"]
   profile                  = "Olatunde"
 }
