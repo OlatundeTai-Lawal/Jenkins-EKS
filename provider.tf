@@ -9,6 +9,6 @@ terraform {
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "FICKY_AWS_ACCESS_KEY_ID"
-  secret_key = "FICKY_AWS_SECRET_ACCESS_KEY"
+  access_key = "AKIAX5WC3HEW7ZX7347S"
+  secret_key = "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"
 }
