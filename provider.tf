@@ -7,8 +7,7 @@ terraform {
   }
 }
 
+# Configure the AWS Provider
 provider "aws" {
-  region     = "us-east-1"
-  access_key = "AKIAX5WC3HEW7ZX7347S"
-  secret_key = "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"
+  region = "us-east-1"
 }
